@@ -11,14 +11,23 @@
     <div class="login-colum">
       <img src="images/phoneImage.png" />
     </div>
-    <div class="login-colum">
-      <div class="login-box">
+    <div class="login_colum">
+      <div class="login_box">
         <img src="images/loginLogo.png" />
-        <!-- later -->
+        <form action="feed.html" method="get" class="login_form" >
+          <input type="text" name="username" placeholder="Username" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <input type="submit" value="Log in">
+        </form>
+        <span class="login_divider">
+          or
+        </span>
+        <a href="#" class="login_fb-link">Log in with Facebook</a>
+        <a href="#" class="login_small-link">Forgot password?</a>
       </div>
-      <div class="login-box">
+      <div class="login_box">
         <span class="login_text">
-          Don't have an account?
+          Don't have an account?<br />
         </span>
         <a href="https://https://www.instagram.com/" class="login_blue_link">Sign up.</a>
       </div>
