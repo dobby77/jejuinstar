@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Comlatible" content="ie=edge">
+    <title>Homework</title>
+    <style >
+    html,body {
+      margin: 0;
+      padding: 0;
+
+    }
+    body{
+      margin-top: 200px;
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .feed{
+      background-color: yellow;
+      border: 10px solid green;
+      padding: 20px;
+      width: 500px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .feed-child{
+      background-color: yellow;
+      border: 10px solid green;
+      padding: 20px;
+      width: 90%;
+      height: 80%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction:row-reverse;
+
+    }
+    .feed-grandchild{
+      background-color: white;
+      display: inline-block;
+      width: 20%;
+      height: 20%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      border-style: inset;
+      border-width: 10px;
+      border-color: pink;
+    }
+    .feed-grandchilddifferent{
+      background-color: white;
+
+      display: inline-block;
+      width: 20%;
+      height: 20%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      border-width: 10px;
+      border-color: pink;
+      border-style: outset;
+    }
+    .feed-blue{
+      background-color: blue;
+      display: inline-block;
+      width: 28%;
+      height: 28%;
+      border: 0px
+    }
+    </style>
+  </head>
+  <body>
+    <div class="feed">
+      <div class="feed-child">
+        <div class="feed-grandchild">1</div>
+        <div class="feed-blue"></div>
+        <div class="feed-grandchilddifferent">2</div>
+        <div class="feed-blue"></div>
+        <div class="feed-grandchild">3</div>
+      </div>
+    </div>
+  </body>
+</html>
