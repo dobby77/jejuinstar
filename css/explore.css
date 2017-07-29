@@ -58,6 +58,12 @@
   border-radius: 3px;
   cursor: pointer;
 }
+.explore_user button:focus {
+  outline: none;
+}
+.explore_user button:active {
+  opacity: 0.5;
+}
 
 .explore_username {
   font-weight: 600;
