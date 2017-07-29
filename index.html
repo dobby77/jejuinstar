@@ -11,57 +11,68 @@
 </head>
 <body>
   <main id="login">
-    <div class="login-colum">
+    <div class="login__column">
       <img src="images/phoneImage.png" />
     </div>
-    <div class="login_colum">
-      <div class="login_box">
+    <!--로그인전체 박스-->
+    <div class="login__column">
+
+      <!--로그인박스-->
+      <div class="login__box">
         <img src="images/loginLogo.png" />
-        <form action="feed.html" method="get" class="login_form" >
+        <form action="feed.html" method="get" class="login__form" >
           <input type="text" name="username" placeholder="Username" required>
           <input type="password" name="password" placeholder="Password" required>
           <input type="submit" value="Log in">
         </form>
-        <span class="login_divider">
+        <span class="login__divider">
           or
         </span>
-        <a href="#" class="login_fb-link"><i class="fa fa-facebook-square"></i>Log in with Facebook</a>
-        <a href="#" class="login_small-link">Forgot password?</a>
-      </div>
-      <div class="login_box">
-        <span class="login_text">
-          Don't have an account?<br />
-        </span>
-        <a href="https://https://www.instagram.com/" class="login_blue_link">Sign up.</a>
+        <a href="#" class="login__fb-link"><i class="fa fa-facebook-square"></i>Log in with Facebook</a>
+        <a href="#" class="login__small-link">Forgot password?</a>
       </div>
 
-      <div class="login_t-box">
-        <span class="login_text">
+
+      <!-- 가입박스-->
+      <div class="login__box">
+        <span class="login__text">
+          Don't have an account?<br />
+        </span>
+        <a href="#" class="login__blue-link">Sign up.</a>
+      </div>
+
+
+      <!--로그인 앱 박스-->
+
+      <div class="login__t-box">
+        <span class="login__text">
           Get the app.
         </span>
-        <div class="login_appstores">
-          <img src="images/ios.png" class="login_appstore" alt="">
-          <img src="images/android.png" class="login_appstore" alt="">
+        <div class="login__appstores">
+          <img src="images/ios.png" class="login__appstore" alt="">
+          <img src="images/android.png" class="login__appstore" alt="">
         </div>
       </div>
+
+
     </div>
   </main>
   <footer>
-    <nav class="footer_nav">
-      <ul class="footer_list">
-        <li class="footer_item"><a href="#" class="footer_link">About us</a></li>
-        <li class="footer_item"><a href="#" class="footer_link">Support</a></li>
-        <li class="footer_item"><a href="#" class="footer_link">Blog</a></li>
-        <li class="footer_item"><a href="#" class="footer_link">press</a></li>
-        <li class="footer_item"><a href="#" class="footer_link">Api</a></li>
-        <li class="footer_item"><a href="#" class="footer_link">Jobs</a></li>
-        <li class="footer_item"><a href="#" class="footer_link">Privacy</a></li>
-        <li class="footer_item"><a href="#" class="footer_link">Terms</a></li>
-        <li class="footer_item"><a href="#" class="footer_link">Directory</a></li>
-        <li class="footer_item"><a href="#" class="footer_link">Language</a></li>
+    <nav class="footer__nav">
+      <ul class="footer__list">
+        <li class="footer__item"><a href="#" class="footer__link">About us</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Support</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">press</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Api</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Jobs</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Privacy</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Directory</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Language</a></li>
       </ul>
     </nav>
-    <span class="footer_copyright">© 2017 jejuinsta</span>
+    <span class="footer__copyright">© 2017 jejuinsta</span>
   </footer>
 </body>
 </html>

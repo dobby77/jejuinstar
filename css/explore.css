@@ -1,0 +1,69 @@
+#explore {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+
+}
+.explore_users {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, .0975);
+  border-radius: 3px;
+}
+
+.explore_users .explore_user {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, .0975);
+
+}
+.explore_users .explore_user:last-child {
+  border: 0;
+}
+
+.explore_user .explore_content {
+  display: flex;
+  align-items: center;
+
+}
+
+.explore_user .explore_content img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-right: 15px
+}
+
+.explore_info .explore_username {
+  display: block;
+  margin-bottom: 7px;
+  font-weight: 600;
+
+}
+.explore_info .explore_full-name {
+  color: #999;
+}
+
+.explore_user button {
+  border:0;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #3897f0;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.explore_username {
+  font-weight: 600;
+}
+
+.explore_full-name {
+  font-weight: 600;
+  color: #66666;
+}
