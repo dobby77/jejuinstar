@@ -27,58 +27,66 @@
       </a>
     </div>
   </nav>
+
+  <!--  수정 시작 -->
   <main id="edit-profile">
-    <div>
-      <header>
-        <img src="images/avatar.jpg">
-        <hi>dobby77</hi>
+    <div class="edit-profile_container user-box">
+
+      <header class="edit-profile_header">
+        <div class="fucker-container">
+          <img src="images/avatar.jpg" />
+        </div>
+        <hi class="edit-profile_username">dobby77</hi>
       </header>
-      <form class="" action="index.html" method="post">
-        <div>
-          <span>Name</span>
-          <input type="text" value="dobby">
+
+      <form class="edit-profile_form" action="index.html" method="post">
+        <div class="edit-profile_row">
+          <label class="edit-profile_label" for="name">Name</label>
+          <input id="name" type="text" value="dobby">
         </div>
-        <div>
-          <span>Username</span>
-          <input type="text" value="JungHye">
+        <div class="edit-profile_row">
+          <label class="edit-profile_label" for="username">Username</label>
+          <input id="username" type="text" value="JungHye">
         </div>
-        <div>
-          <span>Website</span>
-          <input type="text">
+        <div class="edit-profile_row">
+          <label class="edit-profile_label" for="website">Website</label>
+          <input id="website" type="url">
         </div>
-        <div>
-          <span>Bio</span>
-          <textarea name="name"></textarea>
+        <div class="edit-profile_row">
+          <label class="edit-profile_label" for="bio">Bio</label>
+          <textarea id="bio"></textarea>
         </div>
-        <div>
-          <span>Email</span>
-          <input type="email">
+        <div class="edit-profile_row">
+          <label class="edit-profile_label" for="email">Email</label>
+          <input id="email" type="email">
         </div>
-        <div>
-          <span>Phone Number</span>
-          <input type="text">
+        <div class="edit-profile_row">
+          <label class="edit-profile_label" for="phone-number">Phone Number</label>
+          <input id="phone-number" type="text">
         </div>
-        <div>
-          <span>Gender</span>
-          <select name="" id="">
-            <option value="Mail"></option>
-            <option value="femail"></option>
-            <option value="gender"></option>
-          </select>
+        <div class="edit-profile_row">
+          <label class="edit-profile_label" for="gender">Gender</label>
+            <select id="gender" >
+              <option value="mail">Male</option>
+              <option value="femail">Female</option>
+              <option value="Whatever">Whatever</option>
+            </select>
         </div>
-        <div>
-          <span>Similar Account Suggestions</span>
-          <input type="checkbox">
-          <label>Include your account when recommending similar accounts people might want to follow.
+        <div class="edit-profile_row">
+          <span class="edit-profile_label">Similar Account Suggestions</span>
+          <input id="similar" type="checkbox">
+          <label for="similar">Include your account when recommending similar accounts people might want to follow.
             <a href="#">[?]</a>
           </label>
         </div>
-        <input type="submit" name="" value="submit">
+        <div class="edit-profile_row">
+          <span><input type="submit" value="Submit"></span>
+        </div>
       </form>
     </div>
-
-
   </main>
+
+
   <footer>
     <nav class="footer_nav">
       <ul class="footer_list">

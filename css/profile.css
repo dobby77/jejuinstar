@@ -1,0 +1,144 @@
+#profile {
+  width:90%;
+  margin: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+#profile .profile_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.profile_header .profile_info {
+  width: 70%;
+
+}
+.profile_header .avatar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.avatar_container img {
+  border-radius: 50%;
+}
+
+.profile_info .profile_title,
+.profile_info .profile_stats {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+
+}
+
+.profile_title h1 {
+  font-size: 30px;
+  margin-right: 15px;
+}
+.profile_title a {
+  margin-right: 10px;
+}
+
+.profile_title a button {
+  border: 0;
+  border: 1px solid rgba(0, 0, 0, .0975);
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 5px 15px;
+}
+.profile_title i {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.profile_stats .profile_stat {
+  margin-right: 45px;
+}
+
+.profile_stat .profile_stat-number {
+  font-weight: 600;
+}
+
+.profile_bio .profile_fullname,
+.profile_bio .profile_link {
+  font-weight: 600;
+}
+
+.profile_photo-row .profile_photo {
+  width: 24%;
+}
+
+.profile_photo {
+  position: relative;
+}
+
+.profile_photo .profile_photo-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0, 0.5);
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  opacity: 0;
+}
+
+.profile_photo-overlay .profile_photo-stat {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.profile_photo-overlay .profile_photo-stat:first-chid {
+  margin-right: 20px;
+}
+
+.profile_photo:hover .profile_photo-overlay {
+  opacity: 1;
+}
+.profile_photo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/*
+.profile_stats {
+  margin: 30px 0;
+}
+.profile_stats .profile_stat:nth-child(2) {
+  padding: 0 20px;
+
+}
+.profile_number {
+  font-weight: 600;
+}
+
+p{
+  font-size: 15px;
+}
+
+.profile_bio .profile_fullname,
+.profile_bio .profile_link {
+  font-weight: 600;
+}
+
+.profile_photo-row .profile_photo {
+  width: 32%;
+}
+.profile_photo a img {
+  max-width: 100%;
+}
+.*/
