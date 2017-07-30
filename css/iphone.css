@@ -32,6 +32,11 @@
     margin-bottom: 10px;
   }
 
+.login__column img {
+  dispaly: none;
+}
+
+
 
 
   .photo {
