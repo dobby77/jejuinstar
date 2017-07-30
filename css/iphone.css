@@ -1,0 +1,62 @@
+
+
+@media screen and (min-width: 320px) and (max-width: 670px) {
+  main {
+    margin-top: 0px;
+  }
+
+  .navigation input{
+    display: none;
+  }
+
+  .photo .photo_add-comment-container {
+    display: none;
+  }
+  .user-box {
+    background-color: transparent;
+    border: none;
+  }
+
+
+  footer {
+    justify-content: center;
+  }
+
+  footer .footer_list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .footer_list .fooer_item {
+    margin-bottom: 10px;
+  }
+
+
+
+  .photo {
+    margin-bottom: 30px;
+  }
+
+}
+
+.explore_users{
+  background-color: white;
+}
+.explore_users .explore_user {
+
+}
+
+
+/*profile*/
+
+.avatar_container img {
+  width: 50%;
+}
+.profile_info .profile_title {
+
+}
+
+.profile_photo .profile_photo-overlay {
+
+}

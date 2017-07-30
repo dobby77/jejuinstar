@@ -1,0 +1,93 @@
+#edit-profile {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-profile_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.edit-profile_header img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+.edit-profile_header .fucker-container {
+  margin-right: 20px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.edit-profile_container {
+  padding: 35px;
+  box-sizing: border-box;/*테두리를 포함한 박스사이즈 지정*/
+}
+.edit-profile_row {
+  display: flex;
+  align-items: baseline;
+  justify-content:center;
+}
+.edit-profile_row .edit-profile_label {
+  width: 170px;
+  height: 50px;
+  font-weight: 600;
+  text-align: right;
+  margin-right: 20px;
+
+}
+
+.edit-profile_form input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 10px 7px 7px 7px;
+  font-size: 14px;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+}
+.edit-profile_form textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 10px 7px 7px 7px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+}
+.edit-profile_form select {
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  width: 120px;
+  height: 35px;
+  padding: 10px 7px 7px 7px;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, .0975);
+  background: transparent;
+  border-radius: 3px;
+}
+
+.edit-profile_form input[type="submit"] {
+  border: 0;
+  color: white;
+  font-weight: 600;
+  background-color: #3897f0;
+  padding: 5px 20px;
+  margin-top: 30px;
+}
+
+.edit-profile_form checkbox {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 10px 7px 7px 7px;
+  font-size: 14px;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+}

@@ -1,0 +1,101 @@
+#explore {
+  display: flex;
+  justify-content: center;
+
+}
+.explore_users {
+
+}
+
+.explore_users .explore_user {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, .0975);
+}
+.explore_users .explore_user:last-child {
+  border: 0px;
+}
+
+.explore_user .explore_content {
+  display: flex;
+  align-items: center;
+
+}
+
+.explore_user .explore_content img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-right: 15px;
+  /*transition: transform 5s linear; 마우스 올라갈때 주는 변형*/
+  animation: 3s horse infinite linear;
+
+}
+
+
+/*animation*/
+/*@keyframes horse {
+  to {
+    transform: none;
+  }
+  from {
+    transform: rotateY(360deg);
+  }
+}*/
+
+@keyframes horse {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateX(360deg);
+  }
+  100% {
+    transform: rotatex(30deg);
+  }
+}
+
+
+
+.explore_user .explore_content img:hover {
+  transform: rotate(360deg);
+}
+
+.explore_info .explore_username {
+  display: block;
+  margin-bottom: 7px;
+  font-weight: 600;
+
+}
+.explore_info .explore_full-name {
+  color: #999;
+}
+
+.explore_user button {
+  border: 1px solid #3897f0;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  background: #3897f0;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.explore_user button:hover {
+  background: white;
+  color: #3897f0;
+}
+
+
+
+.explore_user button:focus {
+  outline: none;
+}
+.explore_user button:active {
+  opacity: 0.5;
+}
